@@ -1,0 +1,64 @@
+.game-container {
+	width: 608px;
+	margin: 0 auto;
+}
+.game-container > div {
+	width: 150px;
+	height: 150px;
+	border: 1px solid #555;
+	float: left;
+}
+.win.pair-1 , .active.pair-1 {
+	background-image: url('images/1.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-2 , .active.pair-2 {
+	background-image: url('images/2.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-3 , .active.pair-3 {
+	background-image: url('images/3.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-4 , .active.pair-4 {
+	background-image: url('images/4.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-5 , .active.pair-5 {
+	background-image: url('images/5.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-6 , .active.pair-6 {
+	background-image: url('images/6.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-7 , .active.pair-7 {
+	background-image: url('images/7.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.win.pair-8 , .active.pair-8 {
+	background-image: url('images/8.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.winner-pair {
+	background-image: url('images/blue.jpg');
+}
+.loser-pair {
+	background-image: url('images/white.jpeg'); ;
+}
